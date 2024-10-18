@@ -1,0 +1,21 @@
+Dependencies for Project 'ppo', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x65F16BDB)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\Philips"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\led.cpp)(0x660348D0)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\Philips"-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Program Files\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\Python\Desktop\Mateusz Gibas\8f\led.h)(0x6603455B)
+F (.\main.cpp)(0x6603497C)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\Philips"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Users\Python\Desktop\Mateusz Gibas\8f\stepper.h)(0x6603497C)
+I (C:\Users\Python\Desktop\Mateusz Gibas\8f\ledinv.h)(0x660348D0)
+I (C:\Users\Python\Desktop\Mateusz Gibas\8f\led.h)(0x6603455B)
+I (C:\Users\Python\Desktop\Mateusz Gibas\8f\keyboard.h)(0x660345FF)
+F (.\stepper.cpp)(0x6603497C)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\Philips"-o .\stepper.o --omf_browse .\stepper.crf --depend .\stepper.d)
+I (C:\Users\Python\Desktop\Mateusz Gibas\8f\stepper.h)(0x6603497C)
+I (C:\Users\Python\Desktop\Mateusz Gibas\8f\ledinv.h)(0x660348D0)
+I (C:\Users\Python\Desktop\Mateusz Gibas\8f\led.h)(0x6603455B)
+F (.\keyboard.cpp)(0x66034669)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\Philips"-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
+I (C:\Program Files\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\Python\Desktop\Mateusz Gibas\8f\Keyboard.h)(0x660345FF)
+F (.\ledinv.cpp)(0x660348D0)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\Philips"-o .\ledinv.o --omf_browse .\ledinv.crf --depend .\ledinv.d)
+I (C:\Program Files\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\Python\Desktop\Mateusz Gibas\8f\ledinv.h)(0x660348D0)
+I (C:\Users\Python\Desktop\Mateusz Gibas\8f\led.h)(0x6603455B)
